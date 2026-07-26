@@ -1,7 +1,157 @@
-<button class="btn btn-green" onclick="copyCA()" style="padding:12px; font-size:1rem; max-width:200px;">Copy CA</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>$DaiCat | Official</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      background: #0b1120;
+      color: white;
+      line-height: 1.5;
+      padding: 16px;
+      text-align: center;
+    }
+    .container { max-width: 480px; margin: 0 auto; }
+    img {
+      width: 220px;
+      max-width: 80%;
+      border-radius: 24px;
+      border: 4px solid #22c55e;
+      margin: 20px 0 16px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+    }
+    h1 {
+      font-size: 2.8rem;
+      color: #4ade80;
+      margin-bottom: 4px;
+      font-weight: 800;
+    }
+    .ticker {
+      font-size: 1.4rem;
+      color: #22c55e;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    .tagline {
+      font-size: 1.15rem;
+      color: #e2e8f0;
+      margin-bottom: 24px;
+      padding: 0 8px;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      max-width: 320px;
+      margin: 10px auto;
+      padding: 16px;
+      border-radius: 50px;
+      font-size: 1.15rem;
+      font-weight: 700;
+      text-decoration: none;
+      border: none;
+    }
+    .btn-green { background: #22c55e; color: white; }
+    .btn-outline {
+      background: transparent;
+      color: #4ade80;
+      border: 2px solid #4ade80;
+    }
+    .video-box {
+      margin: 25px 0;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 3px solid #22c55e;
+    }
+    .video-box iframe {
+      width: 100%;
+      height: 250px;
+      border: none;
+    }
+    .contract {
+      background: rgba(34, 197, 94, 0.12);
+      border: 2px dashed #22c55e;
+      border-radius: 20px;
+      padding: 20px 16px;
+      margin: 28px 0;
+    }
+    .contract h3 {
+      color: #4ade80;
+      font-size: 1.25rem;
+      margin-bottom: 12px;
+    }
+    .ca {
+      background: #1e293b;
+      padding: 14px;
+      border-radius: 12px;
+      font-family: monospace;
+      font-size: 0.95rem;
+      word-break: break-all;
+      margin-bottom: 12px;
+    }
+    .about {
+      background: rgba(255,255,255,0.05);
+      border-radius: 20px;
+      padding: 24px 18px;
+      margin: 24px 0;
+      text-align: left;
+    }
+    .about h2 {
+      color: #4ade80;
+      text-align: center;
+      font-size: 1.4rem;
+      margin-bottom: 16px;
+    }
+    .about p {
+      margin-bottom: 14px;
+      font-size: 1.05rem;
+      color: #e2e8f0;
+    }
+    .big-text {
+      text-align: center;
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin: 28px 0 16px;
+    }
+    .social {
+      margin: 30px 0;
+    }
+    .social a {
+      color: #4ade80;
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin: 0 14px;
+      text-decoration: none;
+    }
+    footer {
+      margin-top: 30px;
+      color: #94a3b8;
+      font-size: 0.9rem;
+      padding-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <img src="daicat.jpg" alt="$DaiCat">
+
+    <h1>DaiCat</h1>
+    <div class="ticker">$DaiCat</div>
+
+    <p class="tagline">
+      🚨 WELCOME TO THE OFFICIAL HOME OF $DaiCat ON SOLANA! 🚨 🚀🐈
+    </p>
+
+    <a href="https://pump.fun/" class="btn btn-green" target="_blank">🚀 Buy on​​​​​​​​​​​​​​​​​​​​​​
+        ​​​​​​​​​​​​​​​​​​​​​​​​​​​​<div class="contract">
+      <h3>📜 Contract Address</h3>
+      <div class="ca" id="ca">Coming Soon...</div>
+      <button class="btn btn-green" onclick="copyCA()" style="padding:12px; font-size:1rem; max-width:200px;">Copy CA</button>
     </div>
 
-    <!-- ABOUT -->
     <div class="about">
       <h2>The legend is true... 🤫</h2>
       <p>The internet’s favorite dancing feline has officially broken free from the screen to take over Pump.fun! 💃🐾</p>
