@@ -1,192 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <title>$DaiCat | Official</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      -webkit-tap-highlight-color: transparent;
-    }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-      background: #0b1120;
-      color: white;
-      line-height: 1.5;
-      padding: 16px;
-      text-align: center;
-    }
-
-    .container {
-      max-width: 480px;
-      margin: 0 auto;
-    }
-
-    img {
-      width: 220px;
-      max-width: 80%;
-      border-radius: 24px;
-      border: 4px solid #22c55e;
-      margin: 20px 0 16px;
-      box-shadow: 0 12px 30px rgba(0,0,0,0.5);
-    }
-
-    h1 {
-      font-size: 2.8rem;
-      color: #4ade80;
-      margin-bottom: 4px;
-      font-weight: 800;
-    }
-
-    .ticker {
-      font-size: 1.4rem;
-      color: #22c55e;
-      font-weight: 700;
-      margin-bottom: 16px;
-    }
-
-    .tagline {
-      font-size: 1.15rem;
-      color: #e2e8f0;
-      margin-bottom: 24px;
-      padding: 0 10px;
-    }
-
-    .btn {
-      display: block;
-      width: 100%;
-      max-width: 320px;
-      margin: 10px auto;
-      padding: 16px;
-      border-radius: 50px;
-      font-size: 1.15rem;
-      font-weight: 700;
-      text-decoration: none;
-      border: none;
-      cursor: pointer;
-    }
-
-    .btn-green {
-      background: #22c55e;
-      color: white;
-    }
-
-    .btn-pink {
-      background: #ec4899;
-      color: white;
-    }
-
-    .btn-outline {
-      background: transparent;
-      color: #4ade80;
-      border: 2px solid #4ade80;
-    }
-
-    .contract {
-      background: rgba(34, 197, 94, 0.12);
-      border: 2px dashed #22c55e;
-      border-radius: 20px;
-      padding: 20px 16px;
-      margin: 28px 0;
-    }
-
-    .contract h3 {
-      color: #4ade80;
-      font-size: 1.25rem;
-      margin-bottom: 12px;
-    }
-
-    .ca {
-      background: #1e293b;
-      padding: 14px;
-      border-radius: 12px;
-      font-family: monospace;
-      font-size: 0.95rem;
-      word-break: break-all;
-      margin-bottom: 12px;
-    }
-
-    .about {
-      background: rgba(255,255,255,0.05);
-      border-radius: 20px;
-      padding: 24px 18px;
-      margin: 24px 0;
-      text-align: left;
-    }
-
-    .about h2 {
-      color: #4ade80;
-      text-align: center;
-      font-size: 1.4rem;
-      margin-bottom: 16px;
-    }
-
-    .about p {
-      margin-bottom: 14px;
-      font-size: 1.05rem;
-      color: #e2e8f0;
-    }
-
-    .big-text {
-      text-align: center;
-      font-size: 1.3rem;
-      font-weight: 700;
-      margin: 28px 0 16px;
-    }
-
-    .social {
-      margin: 30px 0;
-    }
-
-    .social a {
-      color: #4ade80;
-      font-size: 1.2rem;
-      font-weight: 600;
-      margin: 0 14px;
-      text-decoration: none;
-    }
-
-    footer {
-      margin-top: 30px;
-      color: #94a3b8;
-      font-size: 0.9rem;
-      padding-bottom: 30px;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-
-    <!-- Your cat picture -->
-    <img src="daicat.jpg" alt="$DaiCat">
-
-    <h1>DaiCat</h1>
-    <div class="ticker">$DaiCat</div>
-
-    <p class="tagline">
-      🚨 The internet’s favorite dancing feline has broken free to take over Solana! 💃🐾
-    </p>
-
-    <button class="btn btn-pink" onclick="toggleMusic()" id="musicBtn">
-      🎧 Play the Track
-    </button>
-
-    <a href="https://pump.fun/" class="btn btn-green" target="_blank">🚀 Buy on Pump.fun</a>
-    <a href="#" class="btn btn-outline" target="_blank">📊 Chart</a>
-    <a href="#" class="btn btn-outline" target="_blank">💬 Telegram</a>
-
-    <!-- Contract -->
-    <div class="contract">
-      <h3>📜 Contract Address</h3>
-      <div class="ca" id="ca">Coming Soon...</div>
-      <button class="btn btn-green" onclick="copyCA()" style="padding:12px; font-size:1rem; max-width:200px;">Copy CA</button>
+<button class="btn btn-green" onclick="copyCA()" style="padding:12px; font-size:1rem; max-width:200px;">Copy CA</button>
     </div>
 
-    <!-- About -->
+    <!-- ABOUT -->
     <div class="about">
-      <h2>Welcome to $DaiCat</h2>
-      <p>The legend is true... 🤫</p>
+      <h2>The legend is true... 🤫</h2>
+      <p>The internet’s favorite dancing feline has officially broken free from the screen to take over Pump.fun! 💃🐾</p>
+      <p>Inspired by the iconic Shakira cat dance video, $DaiCat is here to prove that real cats have better hips than humans — even if AI helped them find the rhythm! 😹🎵🔥</p>
+      <p>We are blending pure meme magic, lightning-fast SOL speed, and viral energy into one unstoppable moonshot! 📈⚡</p>
+      <p>If you love cats, high-speed pumps, and massive green candles, you are EXACTLY where you need to be! 💸🟢💎</p>
+      <p style="text-align:center; font-size:1.15rem; margin-top:12px;">
+        The track is playing! 🎧<br>
+        The bonding curve is ready! 📈<br>
+        <strong>Let's pump this cat straight to Raydium!</strong> 🚀🔥
+      </p>
+    </div>
+
+    <p class="big-text">TAP IN EARLY OR CRY LATER</p>
+    <a href="https://pump.fun/" class="btn btn-green" target="_blank">🔥 Join the Movement</a>
+
+    <div class="social">
+      <a href="https://x.com/" target="_blank">🕊️ X</a>
+      <a href="#" target="_blank">💬 Telegram</a>
+    </div>
+
+    <footer>
+      $DaiCat on Solana<br>
+      Not financial advice • Just pure meme energy 🐈💃<br>
+      Buckle up, Let's go!!! It's time to make the Solana charts dance!
+    </footer>
+  </div>
+
+  <script>
+    function copyCA() {
+      navigator.clipboard.writeText(document.getElementById('ca').innerText);
+      alert('Copied!');
+    }
+  </script>
+</body>
+</html>
