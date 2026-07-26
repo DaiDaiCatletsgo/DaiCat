@@ -1,0 +1,48 @@
+<p>Inspired by the iconic Shakira cat dance video, $DaiCat proves real cats have better hips than humans! 😹🎵🔥</p>
+      <p>Pure meme magic + Solana speed = unstoppable moonshot! 📈⚡</p>
+      <p style="text-align:center; font-size:1.15rem; margin-top:10px;">
+        <strong>Let's pump this cat to Raydium!</strong> 🚀🔥
+      </p>
+    </div>
+
+    <p class="big-text">TAP IN EARLY OR CRY LATER</p>
+    <a href="https://pump.fun/" class="btn btn-green" target="_blank">🔥 Join the Movement</a>
+
+    <div class="social">
+      <a href="https://x.com/" target="_blank">🕊️ X</a>
+      <a href="#" target="_blank">💬 Telegram</a>
+    </div>
+
+    <footer>
+      $DaiCat on Solana<br>
+      Not financial advice • Just pure meme energy 🐈💃
+    </footer>
+  </div>
+
+  <audio id="music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    let playing = false;
+    const music = document.getElementById('music');
+    const btn = document.getElementById('musicBtn');
+
+    function toggleMusic() {
+      if (playing) {
+        music.pause();
+        btn.innerHTML = '🎧 Play the Track';
+      } else {
+        music.play().catch(() => alert('Add music.mp3 file first'));
+        btn.innerHTML = '⏸️ Pause Track';
+      }
+      playing = !playing;
+    }
+
+    function copyCA() {
+      navigator.clipboard.writeText(document.getElementById('ca').innerText);
+      alert('Copied!');
+    }
+  </script>
+</body>
+</html>
