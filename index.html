@@ -115,9 +115,6 @@
       font-weight: 700;
       margin: 28px 0 16px;
     }
-    .social {
-      margin: 30px 0;
-    }
     .social a {
       color: #4ade80;
       font-size: 1.2rem;
@@ -136,7 +133,8 @@
 <body>
   <div class="container">
 
-    <img src="daicat.jpg" alt="$DaiCat">
+    <!-- CORRECT PICTURE NAME -->
+    <img src="photo_2026-07-26_18-56-06.jpg" alt="$DaiCat">
 
     <h1>DaiCat</h1>
     <div class="ticker">$DaiCat</div>
@@ -145,46 +143,23 @@
       🚨 WELCOME TO THE OFFICIAL HOME OF $DaiCat ON SOLANA! 🚨 🚀🐈
     </p>
 
-    <a href="https://pump.fun/" class="btn btn-green" target="_blank">🚀 Buy on​​​​​​​​​​​​​​​​​​​​​​
-        ​​​​​​​​​​​​​​​​​​​​​​​​​​​​<div class="contract">
+    <a href="https://pump.fun/" class="btn btn-green" target="_blank">🚀 Buy on Pump.fun</a>
+    <a href="https://x.com/" class="btn btn-outline" target="_blank">🕊️ X (Twitter)</a>
+    <a href="#" class="btn btn-outline" target="_blank">💬 Telegram</a>
+
+    <!-- YOUR YOUTUBE VIDEO -->
+    <div class="video-box">
+      <iframe 
+        src="https://www.youtube.com/embed/2EfARyA4yUQ" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="contract">
       <h3>📜 Contract Address</h3>
       <div class="ca" id="ca">Coming Soon...</div>
       <button class="btn btn-green" onclick="copyCA()" style="padding:12px; font-size:1rem; max-width:200px;">Copy CA</button>
     </div>
 
     <div class="about">
-      <h2>The legend is true... 🤫</h2>
-      <p>The internet’s favorite dancing feline has officially broken free from the screen to take over Pump.fun! 💃🐾</p>
-      <p>Inspired by the iconic Shakira cat dance video, $DaiCat is here to prove that real cats have better hips than humans — even if AI helped them find the rhythm! 😹🎵🔥</p>
-      <p>We are blending pure meme magic, lightning-fast SOL speed, and viral energy into one unstoppable moonshot! 📈⚡</p>
-      <p>If you love cats, high-speed pumps, and massive green candles, you are EXACTLY where you need to be! 💸🟢💎</p>
-      <p style="text-align:center; font-size:1.15rem; margin-top:12px;">
-        The track is playing! 🎧<br>
-        The bonding curve is ready! 📈<br>
-        <strong>Let's pump this cat straight to Raydium!</strong> 🚀🔥
-      </p>
-    </div>
-
-    <p class="big-text">TAP IN EARLY OR CRY LATER</p>
-    <a href="https://pump.fun/" class="btn btn-green" target="_blank">🔥 Join the Movement</a>
-
-    <div class="social">
-      <a href="https://x.com/" target="_blank">🕊️ X</a>
-      <a href="#" target="_blank">💬 Telegram</a>
-    </div>
-
-    <footer>
-      $DaiCat on Solana<br>
-      Not financial advice • Just pure meme energy 🐈💃<br>
-      Buckle up, Let's go!!! It's time to make the Solana charts dance!
-    </footer>
-  </div>
-
-  <script>
-    function copyCA() {
-      navigator.clipboard.writeText(document.getElementById('ca').innerText);
-      alert('Copied!');
-    }
-  </script>
-</body>
-</html>
