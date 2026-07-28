@@ -1,1 +1,1 @@
-# DaiCat
+MIGHTY
